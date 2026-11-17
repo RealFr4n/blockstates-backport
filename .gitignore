@@ -1,0 +1,15 @@
+# Build
+build/
+.gradle/
+out/
+release/
+
+# Dev client
+run/
+
+# Local Gradle settings
+local.properties
+
+# IDE
+.idea/
+*.iml

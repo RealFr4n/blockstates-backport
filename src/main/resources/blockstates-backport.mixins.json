@@ -1,0 +1,20 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "com.blockstatesbackport.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"client": [
+		"BlockRendererAccessor",
+		"BlockRendererMixin",
+		"ItemRendererMixin",
+		"MinecraftReloadMixin",
+		"MovingBlockRendererMixin",
+		"TextureAtlasAccessor",
+		"TextureAtlasMixin",
+		"RenderChunkMixin",
+		"WorldRendererMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
